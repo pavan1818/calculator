@@ -71,5 +71,19 @@ public class calculator {
 		// print the final result
 		System.out.println(num1 + " " + op + " " + num2
 						+ " = " + o);
+	
+	
+		 System.out.println("Advanced equation");
+		 
+		 System.out.println("enter first num");
+            int firstnum = scan.nextInt();
+            System.out.println("enter second num");
+            int secondnum = scan.nextInt();
+			
+			System.out.println("enter operand");
+            String operand = scan.next();
+            if(operand.equals("+")){
+                int solution = firstnum + secondnum;
+                System.out.println(firstnum + operand + secondnum + "=" + solution);
 	}
 }
